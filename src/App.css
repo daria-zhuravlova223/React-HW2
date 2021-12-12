@@ -28,6 +28,30 @@
   color: #61dafb;
 }
 
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.card{
+  width: 15%;
+  margin: 10px;
+}
+
+.form{
+  padding: 30px;
+  display: flex !important;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+
+.button{
+  margin-left: 30px !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +60,4 @@
     transform: rotate(360deg);
   }
 }
+
